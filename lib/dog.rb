@@ -1,9 +1,17 @@
 class Dog
   def name
-    @dog_name
+    @name
   end
 
   def name=(argument)
-    @dog_name = argument
+    @name = argument
+  end
+
+  def breed=(type)
+    @breed = type
+  end
+
+  def breed
+  @type
   end
 end
