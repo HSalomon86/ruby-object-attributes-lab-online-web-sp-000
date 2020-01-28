@@ -6,5 +6,11 @@ class Person
   def job
     @job
   end
+  def name=(moniker)
+    @name = moniker
+  end
 
+  def name
+    @name
+  end
 end
